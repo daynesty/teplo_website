@@ -340,6 +340,7 @@ position relative зависимый элемент от предыдущего 
      text-align: center;
      padding-top: 82px;
      padding-bottom: 62px;
+     justify-content: center;
  }
  .menu-img {
      position: relative;
@@ -350,21 +351,21 @@ position relative зависимый элемент от предыдущего 
  }
  .menu-kitchen > img {
      width: 300px;
-     height: 400px;
+     height: 500px;
  }
 
 .menu-bar > img {
     width: 300px;
     height: 500px;
 }
-.menu-kitchen > img :hover{
-    transform: scale(110%);
+.menu-kitchen > img:hover{
+    transform: scale(130%);
 }
 .menu-kitchen {
     transition: 0.3s ease-in-out;
 }
-.menu-bar > img :hover{
-    transform: scale(200%);
+.menu-bar > img:hover{
+    transform: scale(130%);
 }
 .menu-bar {
     transition: 0.3s ease-in-out;
@@ -376,6 +377,7 @@ position relative зависимый элемент от предыдущего 
     text-align: center;
     padding-top: 82px;
     padding-bottom: 62px;
+    justify-content: center;
 }
 .title-bar{
     font-size: 50px;
